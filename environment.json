@@ -1,0 +1,35 @@
+{
+  "python": "3.11.18",
+  "uv": "0.13.7",
+  "platform": "Linux x86_64",
+  "torch": "2.5.1+cu124",
+  "torchvision": "0.20.1+cu124",
+  "cuda_runtime": "12.4",
+  "upstream_repository": "https://github.com/pankessel/adv_explanation_ref",
+  "upstream_commit": "bce4d2cea5d91c607ad2c021484db3a6daf1c963",
+  "main": {
+    "pairs": 50,
+    "epsilons_255": [
+      1,
+      2,
+      4,
+      8,
+      16,
+      32,
+      255
+    ],
+    "num_iter": 3000,
+    "lr": 0.0002,
+    "batch_size": 7,
+    "save_best": false,
+    "early_stop": false
+  },
+  "long_pilots": {
+    "pairs": 2,
+    "num_iter": 20000,
+    "lr": 0.0002,
+    "batch_size": 7,
+    "save_best": true,
+    "early_stop": true
+  }
+}

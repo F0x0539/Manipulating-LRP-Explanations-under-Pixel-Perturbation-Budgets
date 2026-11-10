@@ -1,0 +1,13 @@
+LRP explanation attacks under pixel perturbation budgets
+
+Adapted from https://github.com/pankessel/adv_explanation_ref
+Upstream commit: bce4d2cea5d91c607ad2c021484db3a6daf1c963
+Upstream copyright: 2022 Pan Kessel & Ann-Kathrin Dombrowski.
+The upstream Apache License, Version 2.0 is preserved in LICENSE.
+
+Project modifications include the L-infinity projection, independent epsilon
+batches, experiment automation, metrics, and loss histories. The upstream
+neural-network and explanation implementation is retained under src/nn/.
+
+ImageNet images and model weights are obtained separately. The code license
+does not grant rights to third-party images or datasets.

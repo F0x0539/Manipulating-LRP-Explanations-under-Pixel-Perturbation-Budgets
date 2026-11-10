@@ -1,0 +1,1064 @@
+{
+  "dataset": "ILSVRC/imagenet-1k",
+  "split": "validation",
+  "revision": "49e2ee26f3810fb5a7536bbf732a7b07389a47b5",
+  "seed": 42,
+  "shuffle_buffer": 1000,
+  "selection": "seeded buffered streaming shuffle (not uniform over the full split)",
+  "datasets_version": "5.1.0",
+  "huggingface_hub_version": "2.4.0",
+  "images": [
+    {
+      "file": "images/image_000.png",
+      "source_path": "ILSVRC2012_val_00017256_n03494278.JPEG",
+      "source_sha256": "2b8b13247b3e4b1522bf3f479a79b97bc7c493d0a90850ab6e8eb15495da9aad",
+      "label": 593,
+      "class_name": "harmonica, mouth organ, harp, mouth harp",
+      "sha256": "1bba764b31529038aaa3af411c0e39adeb087d17cd773f677d75dc89ac9f27ab"
+    },
+    {
+      "file": "images/image_001.png",
+      "source_path": "ILSVRC2012_val_00032428_n03062245.JPEG",
+      "source_sha256": "1318b84773af9312d51355097fa87d95e7ce4ec03524a2618369ceb70b16f6bc",
+      "label": 503,
+      "class_name": "cocktail shaker",
+      "sha256": "922b7ba66782c9510b5cf65fc94fde178dd3892e2b23e3c39f7ca56a3623da78"
+    },
+    {
+      "file": "images/image_002.png",
+      "source_path": "ILSVRC2012_val_00003659_n02009229.JPEG",
+      "source_sha256": "4501834524ebf8f219cf189dbfaf6ce0c5e21f8050350d9ef0c396c602e67288",
+      "label": 131,
+      "class_name": "little blue heron, Egretta caerulea",
+      "sha256": "50d97ce02c2513a03412c2d0221d861ace748794e9495bafa0f25c01c13f2283"
+    },
+    {
+      "file": "images/image_003.png",
+      "source_path": "ILSVRC2012_val_00009817_n02110627.JPEG",
+      "source_sha256": "feed68d7c7f7deb2861bfaaa447b54ffc133161b6ae8844b8348b6deee058443",
+      "label": 252,
+      "class_name": "affenpinscher, monkey pinscher, monkey dog",
+      "sha256": "b121d12c07e32f551fc4dce069e14a8c69f264aa9db4d18e49a42f119c547e24"
+    },
+    {
+      "file": "images/image_004.png",
+      "source_path": "ILSVRC2012_val_00021948_n03344393.JPEG",
+      "source_sha256": "6f66f5fddbdc7c6eac85f83a9c0b7e7a028280497633334453c1abf5c601fa02",
+      "label": 554,
+      "class_name": "fireboat",
+      "sha256": "a9e07c7176b080483ed4ba599835678905872cc708a6237a17b94ea44a402e37"
+    },
+    {
+      "file": "images/image_005.png",
+      "source_path": "ILSVRC2012_val_00039778_n04204347.JPEG",
+      "source_sha256": "b48a6ddfda819b1c1bbf4cfecff4ff2330e36bc6b62f3a4d058f33bd3e5afec6",
+      "label": 791,
+      "class_name": "shopping cart",
+      "sha256": "26f5627a69a13d26133c3cd4429cf9fa5444816fa7ab02dbe40bb173c47d6c81"
+    },
+    {
+      "file": "images/image_006.png",
+      "source_path": "ILSVRC2012_val_00023737_n02108551.JPEG",
+      "source_sha256": "66c97a681dbdbdd4f96af8cbd3d8e63898c19a6c0017d95e6e4a21049f83d842",
+      "label": 244,
+      "class_name": "Tibetan mastiff",
+      "sha256": "a979856d59c453b58cbe52961acf4b4967d58cfd6dd08d7653b971cd121fcd98"
+    },
+    {
+      "file": "images/image_007.png",
+      "source_path": "ILSVRC2012_val_00047267_n02346627.JPEG",
+      "source_sha256": "c94b8b611ee374145ff7b02ec5023fae2c40b8470b72a63b48a04afb2db8858f",
+      "label": 334,
+      "class_name": "porcupine, hedgehog",
+      "sha256": "d0788a13a14c4c6c582a53460101aa277c1659d529d6e9cac9ec04b55e6c0c68"
+    },
+    {
+      "file": "images/image_008.png",
+      "source_path": "ILSVRC2012_val_00021327_n02395406.JPEG",
+      "source_sha256": "22320c7b3a32786bec62663c65433726d3da56fc292d18be2329796b4a327e84",
+      "label": 341,
+      "class_name": "hog, pig, grunter, squealer, Sus scrofa",
+      "sha256": "967f2352b54228e3cca8f04ed5be86783a903d60f7317602c38150c55007a2d7"
+    },
+    {
+      "file": "images/image_009.png",
+      "source_path": "ILSVRC2012_val_00031372_n02791124.JPEG",
+      "source_sha256": "4b77fec03a6c1d8a0f5b976161199a3c23f43a235cc4975d53a5130cf5750aeb",
+      "label": 423,
+      "class_name": "barber chair",
+      "sha256": "33d736e37a5760dcde57af70d45866081268114c983b818dc059174617cb6432"
+    },
+    {
+      "file": "images/image_010.png",
+      "source_path": "ILSVRC2012_val_00035096_n01817953.JPEG",
+      "source_sha256": "83cf855e566a4b7ebdf92a334fabdfa15028804fa47d8a25521f0dd40fe9d458",
+      "label": 87,
+      "class_name": "African grey, African gray, Psittacus erithacus",
+      "sha256": "6f396ceac454732035a1ff84ef83db1d3aec6d56e58ac1a80bf89c5a7b931f10"
+    },
+    {
+      "file": "images/image_011.png",
+      "source_path": "ILSVRC2012_val_00002508_n03888257.JPEG",
+      "source_sha256": "f39a9ea4e9e0a0a4f3b68be39dcc16c9db1354c7c400c2acee96fed5bcbf3f62",
+      "label": 701,
+      "class_name": "parachute, chute",
+      "sha256": "07bd77982365fc0b41d5a49be91aa1a63a6961154d935e30a4a82475e8edf405"
+    },
+    {
+      "file": "images/image_012.png",
+      "source_path": "ILSVRC2012_val_00032412_n06794110.JPEG",
+      "source_sha256": "3282e4a8683dacd8d5766d926c3252364a09f9a5116680599354fce381104d0a",
+      "label": 919,
+      "class_name": "street sign",
+      "sha256": "8494c5c63bfa7249e98d97795fa793578c77998aa7db371bcd87d91dd08060ba"
+    },
+    {
+      "file": "images/image_013.png",
+      "source_path": "ILSVRC2012_val_00043691_n04067472.JPEG",
+      "source_sha256": "bb9ffbc4c14732d3b1e4258ee5e3839be00d77afa3ae39d01fa995d40025d897",
+      "label": 758,
+      "class_name": "reel",
+      "sha256": "0ededf0eb8e9203a3baa06f2f10c4810733f31cf7cfc8a00728ab71e82349887"
+    },
+    {
+      "file": "images/image_014.png",
+      "source_path": "ILSVRC2012_val_00048575_n02018795.JPEG",
+      "source_sha256": "51f04b0bd6afa140f7aa4b3dd341be936ea32a2fd8cbd04ce864d2f48cb38e11",
+      "label": 138,
+      "class_name": "bustard",
+      "sha256": "cc70d3a3f3d260d558383f2e3687872994c3ac634b203cffd2836d1c38be8483"
+    },
+    {
+      "file": "images/image_015.png",
+      "source_path": "ILSVRC2012_val_00009354_n02117135.JPEG",
+      "source_sha256": "a68949eac771274be18dcdf15a887fcc603cc55e7ea7de5a392c8f5f2055baae",
+      "label": 276,
+      "class_name": "hyena, hyaena",
+      "sha256": "77a604b10b1f68e45f266453292d3220fa659ad8ddc7134f2e3b6dcc2540604a"
+    },
+    {
+      "file": "images/image_016.png",
+      "source_path": "ILSVRC2012_val_00019608_n07695742.JPEG",
+      "source_sha256": "3ebf354817aa26a6b28ef0c076ba41abdf0e8a74177e7a3816b8438fc16358bd",
+      "label": 932,
+      "class_name": "pretzel",
+      "sha256": "e33e0f1d323e6c6e95029b3b304e6977dda28ecca9460638c36bd2c973a02fad"
+    },
+    {
+      "file": "images/image_017.png",
+      "source_path": "ILSVRC2012_val_00046204_n03871628.JPEG",
+      "source_sha256": "4f2841463d61f601e018b4e2f5c4de361055dd07a59530a6df80c364facd6087",
+      "label": 692,
+      "class_name": "packet",
+      "sha256": "379de876421fddfadd27fa9a7cd7335d986016c9936648809ce1d6c120fc38a3"
+    },
+    {
+      "file": "images/image_018.png",
+      "source_path": "ILSVRC2012_val_00008061_n02108422.JPEG",
+      "source_sha256": "b07ef362917ea91002d41a0e214d09f03af88d8604e7f3fed0a3be963f658e3d",
+      "label": 243,
+      "class_name": "bull mastiff",
+      "sha256": "ba9706f94f373a074b74dde34ed9a5a11b1f75a845b32a33517bce42af052ff7"
+    },
+    {
+      "file": "images/image_019.png",
+      "source_path": "ILSVRC2012_val_00029178_n02128925.JPEG",
+      "source_sha256": "888103de9bbad481e6809af8182fb2bcb941996d767da54a8f0103e227cc6eff",
+      "label": 290,
+      "class_name": "jaguar, panther, Panthera onca, Felis onca",
+      "sha256": "ce977ec2929dbf87e01bd90c3b0e70aa153aed8e09413ac8c49508454a22f6b4"
+    },
+    {
+      "file": "images/image_020.png",
+      "source_path": "ILSVRC2012_val_00036913_n02089973.JPEG",
+      "source_sha256": "c595b6d2faf6303e0966e94cbbc0d2fd3959c91db45f00cbc6d0aee31ffe7721",
+      "label": 167,
+      "class_name": "English foxhound",
+      "sha256": "90d2a69d93c9276838d3bec3895453b4adb16e823baaf046e55cf1857732927e"
+    },
+    {
+      "file": "images/image_021.png",
+      "source_path": "ILSVRC2012_val_00029899_n02088094.JPEG",
+      "source_sha256": "a5bb90c266da3c17b15467cc87561126047e034e16a9f397cadc143bb00f49c8",
+      "label": 160,
+      "class_name": "Afghan hound, Afghan",
+      "sha256": "ffb467908919deff16fea21576d2f1526bd752fec60bc973de5a67a2ce984f2c"
+    },
+    {
+      "file": "images/image_022.png",
+      "source_path": "ILSVRC2012_val_00027488_n01742172.JPEG",
+      "source_sha256": "12b14a30cc1deb669833039d3456cc17d32715938c98c790e6e228e5aa806258",
+      "label": 61,
+      "class_name": "boa constrictor, Constrictor constrictor",
+      "sha256": "63241e3be380cbc2cdfe41c8955bdd5860e909eb2bb44d618ef35ce09e1dce34"
+    },
+    {
+      "file": "images/image_023.png",
+      "source_path": "ILSVRC2012_val_00043374_n04008634.JPEG",
+      "source_sha256": "68e7d11a42148678755208d8b0691470b6a8474ed1e104114daf39716a6840b0",
+      "label": 744,
+      "class_name": "projectile, missile",
+      "sha256": "1fc426ca24adb381b5aec593d8645553a3e6921313a6085477f151f2230c6891"
+    },
+    {
+      "file": "images/image_024.png",
+      "source_path": "ILSVRC2012_val_00000833_n04487081.JPEG",
+      "source_sha256": "000ae67e6c4dd450c001950046b07b4f8b6d56f7938beb57b50ab17ffaf7fc17",
+      "label": 874,
+      "class_name": "trolleybus, trolley coach, trackless trolley",
+      "sha256": "82593a9876b4c567a2a2605e17223a4bea9efeb068ec23d27ad1e249709a53a8"
+    },
+    {
+      "file": "images/image_025.png",
+      "source_path": "ILSVRC2012_val_00025584_n13040303.JPEG",
+      "source_sha256": "e376eb90def78d83154cbb1a4d902f1acc23d33abce24eb9f1f4aad2d97d8ff9",
+      "label": 994,
+      "class_name": "stinkhorn, carrion fungus",
+      "sha256": "6e0d7156cbac34ac869d1ee6a8864e7c6ce675a620e624045ebdada57415373b"
+    },
+    {
+      "file": "images/image_026.png",
+      "source_path": "ILSVRC2012_val_00046438_n01843383.JPEG",
+      "source_sha256": "42c71cf7e21fcaf5e140332f1fb95a821274b4eea8b37188acbcc24194646f06",
+      "label": 96,
+      "class_name": "toucan",
+      "sha256": "8738a951e449c22de973998d8450d78cfe821c4ff5100263fdf608c8f392c1e7"
+    },
+    {
+      "file": "images/image_027.png",
+      "source_path": "ILSVRC2012_val_00016989_n02113186.JPEG",
+      "source_sha256": "03ba4e742682d38f1d9f6df553a55e39be675f9b18feba6ec789846ffb9c8bd7",
+      "label": 264,
+      "class_name": "Cardigan, Cardigan Welsh corgi",
+      "sha256": "147558d913e502c8fb8172280eeeaa625e0445e7d5a06aa06a40283c246f98ff"
+    },
+    {
+      "file": "images/image_028.png",
+      "source_path": "ILSVRC2012_val_00045190_n03763968.JPEG",
+      "source_sha256": "703d7ee3bae88d9ae93267272ad79a20f0aaabac420d56e781eb262cd4de9a18",
+      "label": 652,
+      "class_name": "military uniform",
+      "sha256": "86df6cb0f2e40155b176c0f4b6732b2e71fc7722191ff66c362937384444038d"
+    },
+    {
+      "file": "images/image_029.png",
+      "source_path": "ILSVRC2012_val_00040687_n04019541.JPEG",
+      "source_sha256": "d89f89e67ec4fde3c06d447e5bad96faf836e78fa24cf3d33089feee3cf5f338",
+      "label": 746,
+      "class_name": "puck, hockey puck",
+      "sha256": "40bd2a86e2fc3e8a6d30db9a03e8aa114f1547c3bb37f8e1143eb6ed18745f67"
+    },
+    {
+      "file": "images/image_030.png",
+      "source_path": "ILSVRC2012_val_00045388_n04612504.JPEG",
+      "source_sha256": "7b472984ae4445ff49285fb0c8d8588487dabde19e2d733b4d3a0b7e1f135293",
+      "label": 914,
+      "class_name": "yawl",
+      "sha256": "8509c1f36c7e8f5b10f1022c7481c73cc241b7a2855f22b72c589702229d1bc2"
+    },
+    {
+      "file": "images/image_031.png",
+      "source_path": "ILSVRC2012_val_00025393_n02088364.JPEG",
+      "source_sha256": "59638a12b7fabc080c050084e360faf505244dde7d1741a5d9effd8ea401234c",
+      "label": 162,
+      "class_name": "beagle",
+      "sha256": "a37f6c0de26d7b579b7e31c412707d5159df460180a975bc4357f2242ffa355c"
+    },
+    {
+      "file": "images/image_032.png",
+      "source_path": "ILSVRC2012_val_00030048_n09332890.JPEG",
+      "source_sha256": "85c829b82f1ed22eb6758fe4029852eb48505defb75f2f1cdb9516babad3919e",
+      "label": 975,
+      "class_name": "lakeside, lakeshore",
+      "sha256": "ebfccffdfd8a9c27d9fa51ffa2a2dea9eb0d840850dc8fed622653f774329d16"
+    },
+    {
+      "file": "images/image_033.png",
+      "source_path": "ILSVRC2012_val_00017592_n02100735.JPEG",
+      "source_sha256": "997eaa006c7f87dec8de99bb8b5eb0f11be27b873abe23848f9b1a0f45db8f03",
+      "label": 212,
+      "class_name": "English setter",
+      "sha256": "43099b40b3b0ad7d593ba79fdd46f73e5b7179b63f707e2d9ea258482e9b0faf"
+    },
+    {
+      "file": "images/image_034.png",
+      "source_path": "ILSVRC2012_val_00039037_n02966193.JPEG",
+      "source_sha256": "dacd0cb23f0786b541ee91d579add93c18b9959f61a4d630d61ae65066eb62b2",
+      "label": 476,
+      "class_name": "carousel, carrousel, merry-go-round, roundabout, whirligig",
+      "sha256": "93bf9dcfb84a53bb62ff77a86eef566478eca131e6a747bf6efb10ca0d727efe"
+    },
+    {
+      "file": "images/image_035.png",
+      "source_path": "ILSVRC2012_val_00045034_n12620546.JPEG",
+      "source_sha256": "c027396c8f95a11100204dd67499e03022d0c920b4d6017e7e6d5229f69de767",
+      "label": 989,
+      "class_name": "hip, rose hip, rosehip",
+      "sha256": "7136242fcc9ef0d31312c789ef2fe528d93f11bbcd307e0ec2b9a079f69a625a"
+    },
+    {
+      "file": "images/image_036.png",
+      "source_path": "ILSVRC2012_val_00046966_n02056570.JPEG",
+      "source_sha256": "7e26f2be808d0fb0e5d50166af9f18262abf2ca68b37d4304d82bf29082cfe20",
+      "label": 145,
+      "class_name": "king penguin, Aptenodytes patagonica",
+      "sha256": "e4017d07f9c12dc5dde6a9cb0aca1eb807e23f0ec19fd08c1c17513b22e7c41a"
+    },
+    {
+      "file": "images/image_037.png",
+      "source_path": "ILSVRC2012_val_00013855_n04509417.JPEG",
+      "source_sha256": "5ff8fb90fe1a4adffdb55e2ca07b3666bfeeebc43d294fbd48161db0b69e2c2b",
+      "label": 880,
+      "class_name": "unicycle, monocycle",
+      "sha256": "d014d575dcc2a7538c450ac7dad981657d3988d20665655682ae7474758f696b"
+    },
+    {
+      "file": "images/image_038.png",
+      "source_path": "ILSVRC2012_val_00010347_n03388043.JPEG",
+      "source_sha256": "5907fe4bbf3fd0a9f6a8562500be39d8945e3f8f21b58828e40032779bc4d38b",
+      "label": 562,
+      "class_name": "fountain",
+      "sha256": "244af5b59ff5f3d1cf1fb2ca799d1c66f028656d070f7b7c1b1c88939365ffc9"
+    },
+    {
+      "file": "images/image_039.png",
+      "source_path": "ILSVRC2012_val_00047931_n03874599.JPEG",
+      "source_sha256": "22a4f09bc26ad52dbeea5e314b93ca676afd3a8284b9992441579e92e47b34eb",
+      "label": 695,
+      "class_name": "padlock",
+      "sha256": "6ff0fe16694eb74746d59c4cd6cfe9b1e76db2e6d91c91ec475b7a9569cd432b"
+    },
+    {
+      "file": "images/image_040.png",
+      "source_path": "ILSVRC2012_val_00002325_n02091032.JPEG",
+      "source_sha256": "2da2c62a70c4f2b0ddacdbecfae46321782a8bf029b93b5c8519af82210da0f8",
+      "label": 171,
+      "class_name": "Italian greyhound",
+      "sha256": "342301e464aefaaafc5c6de05e2501708a861acf5827e2eb1885f3a898afed85"
+    },
+    {
+      "file": "images/image_041.png",
+      "source_path": "ILSVRC2012_val_00001575_n07892512.JPEG",
+      "source_sha256": "eba8c7d59704a4c37a72cc19f0e7bfbcb6174b9a08caeeb6a03cade74c136741",
+      "label": 966,
+      "class_name": "red wine",
+      "sha256": "8804ed2465b149b2e583a0f415e36bb70b2c6e43cfda8733bb35b174d87bf760"
+    },
+    {
+      "file": "images/image_042.png",
+      "source_path": "ILSVRC2012_val_00017005_n04152593.JPEG",
+      "source_sha256": "3dc8c71265c3c6cf763c2eae09cc70c6d71743e6a2b98f5bdae30af31bd2b7f6",
+      "label": 782,
+      "class_name": "screen, CRT screen",
+      "sha256": "f7537ea05ffdbefa301a1d908c524c3cbd83ac73ba385ebc44b5aa57247ecda7"
+    },
+    {
+      "file": "images/image_043.png",
+      "source_path": "ILSVRC2012_val_00008741_n02971356.JPEG",
+      "source_sha256": "07c7a1e70f2760f8291cc869bfb93f04be7b138520348f2690129bbbfed7a773",
+      "label": 478,
+      "class_name": "carton",
+      "sha256": "be18da0d0f241a346ea070ec52877eb0846c264999fe7e8fff82120199110094"
+    },
+    {
+      "file": "images/image_044.png",
+      "source_path": "ILSVRC2012_val_00018099_n02027492.JPEG",
+      "source_sha256": "f8d5f0549a367f3407c18342bcc30e6747394f4c6648b4ffee69df8c28758f59",
+      "label": 140,
+      "class_name": "red-backed sandpiper, dunlin, Erolia alpina",
+      "sha256": "fedb8f65cfeab19781f13ae77dded5c15d2d96e350e9fd5ee1f51b12b9889f75"
+    },
+    {
+      "file": "images/image_045.png",
+      "source_path": "ILSVRC2012_val_00014707_n01860187.JPEG",
+      "source_sha256": "c12d451fc0dd16af67cfe40d852e660c7fe702eeb52fac2db1075a2e16885118",
+      "label": 100,
+      "class_name": "black swan, Cygnus atratus",
+      "sha256": "9662e65517065aaf43a61bdbd4bb45e24982d2a65c22c53975d0f7bcb2773972"
+    },
+    {
+      "file": "images/image_046.png",
+      "source_path": "ILSVRC2012_val_00015670_n02085782.JPEG",
+      "source_sha256": "10b2b3847761fe4520f627c3871c5e16367cdb1e2614cd9314e2ce91632d5bb9",
+      "label": 152,
+      "class_name": "Japanese spaniel",
+      "sha256": "e195a2bfe8b60967c98d6977bf4e2e9ec169d92efedf86a3077e7597844a7b7d"
+    },
+    {
+      "file": "images/image_047.png",
+      "source_path": "ILSVRC2012_val_00015605_n02115913.JPEG",
+      "source_sha256": "6601a3a6ad496d8730a0c04381106344140fee939f80529c6514d61d4af089e1",
+      "label": 274,
+      "class_name": "dhole, Cuon alpinus",
+      "sha256": "161ae9ba68c7cb38201cdf5483166acac1d2f0aaf4156bcd17111e22e81bfd85"
+    },
+    {
+      "file": "images/image_048.png",
+      "source_path": "ILSVRC2012_val_00036768_n02869837.JPEG",
+      "source_sha256": "870146269e44dbc583ebbe8e7516773d3efd9052ed2bc4e2d5afdf0e7dd1ccd4",
+      "label": 452,
+      "class_name": "bonnet, poke bonnet",
+      "sha256": "7e5971e8fce1b166bfe5c50f577593dc0cb2207c3fdc5e4081120f855c4b45ca"
+    },
+    {
+      "file": "images/image_049.png",
+      "source_path": "ILSVRC2012_val_00030227_n04557648.JPEG",
+      "source_sha256": "c62d6bf020ab7fff3dd4b15a4e133f3a9f681b95af079cb72573e845c8f018e2",
+      "label": 898,
+      "class_name": "water bottle",
+      "sha256": "d765861f5f230a7fdb3853f9f523fbe2d3ac84409344c462b8ccec381300d94a"
+    },
+    {
+      "file": "images/image_050.png",
+      "source_path": "ILSVRC2012_val_00043416_n02988304.JPEG",
+      "source_sha256": "f75d6e05e93800edacb7a58aff3d17b55cec1194b633dd68d4ba980c6b0df0fc",
+      "label": 485,
+      "class_name": "CD player",
+      "sha256": "0199856fb531e9d47ef4aef9e42c2d3d675647088f5f068550c277f6c69138fc"
+    },
+    {
+      "file": "images/image_051.png",
+      "source_path": "ILSVRC2012_val_00014812_n04154565.JPEG",
+      "source_sha256": "7188052c566eb3bf3f7e3ade13f90f94c8d8e1e725fe69494b4bcc20bb388e39",
+      "label": 784,
+      "class_name": "screwdriver",
+      "sha256": "5477d613f8841dd48b060095b6b1555d70f98ead3e0b8c83e9e7b8b317b2e287"
+    },
+    {
+      "file": "images/image_052.png",
+      "source_path": "ILSVRC2012_val_00038282_n03538406.JPEG",
+      "source_sha256": "951b883ab1b5e5c2329e1cf0a0c0bff6be3ee293b5ab3b0d1f93b44774e74266",
+      "label": 603,
+      "class_name": "horse cart, horse-cart",
+      "sha256": "22f359f71e3213919ccce649904082199815d5624c9c180daa231a39a8dd0c05"
+    },
+    {
+      "file": "images/image_053.png",
+      "source_path": "ILSVRC2012_val_00000841_n03814639.JPEG",
+      "source_sha256": "be5a31dd33ffa7081cae8dae81ce34f196f9b8a15edf16b2cfac61d3ab5843f9",
+      "label": 678,
+      "class_name": "neck brace",
+      "sha256": "16cd3b4ec80b5fc1fe2dcb891654dfffe71f5d2a9b234d32a80ba3a448f06e1e"
+    },
+    {
+      "file": "images/image_054.png",
+      "source_path": "ILSVRC2012_val_00026705_n01693334.JPEG",
+      "source_sha256": "0dce37dfac116362fd514019ef0133fae277d712d45f4ecbc2a3c244d48a13b5",
+      "label": 46,
+      "class_name": "green lizard, Lacerta viridis",
+      "sha256": "eb76700c8aed8c59a1ee4952c61596e13721ed4e02071810b09803cbe488241d"
+    },
+    {
+      "file": "images/image_055.png",
+      "source_path": "ILSVRC2012_val_00000957_n03394916.JPEG",
+      "source_sha256": "ef3d2b381acae150d7f80f7c1e388eb31dcec1f3212c86f2589d1b98c2298b21",
+      "label": 566,
+      "class_name": "French horn, horn",
+      "sha256": "e0fc8e8816b8976f81bf230fdc41fc6bf84bdf662580b0ded7da985da5a20654"
+    },
+    {
+      "file": "images/image_056.png",
+      "source_path": "ILSVRC2012_val_00026374_n02395406.JPEG",
+      "source_sha256": "abd6f17ed51cb0bd594e12303b175b9d9dda6568bad7a054f0a7f9f9c2043eb6",
+      "label": 341,
+      "class_name": "hog, pig, grunter, squealer, Sus scrofa",
+      "sha256": "6ac1dcc8763f9cf64fa1935fdcaddf0910675ae3260add1559e0a002a889fe9c"
+    },
+    {
+      "file": "images/image_057.png",
+      "source_path": "ILSVRC2012_val_00038253_n02098286.JPEG",
+      "source_sha256": "b4953b30bc917b5cd152fb3b709b2a282b3bfc4e97e8ca856f400e9ab474a918",
+      "label": 203,
+      "class_name": "West Highland white terrier",
+      "sha256": "cbd1cfb26e9cc509a85dc3a1d94e65e29913fc3906b0a3a27617b6ed69ea14ed"
+    },
+    {
+      "file": "images/image_058.png",
+      "source_path": "ILSVRC2012_val_00009730_n01943899.JPEG",
+      "source_sha256": "9419c8358da45ad0b54a4c451f9e27f2ad8c52aba04c29246983164a8b347430",
+      "label": 112,
+      "class_name": "conch",
+      "sha256": "a1bc1015ff349947aaeb8e978ecf63ed9a4f2b025386ed13293f8827988efefd"
+    },
+    {
+      "file": "images/image_059.png",
+      "source_path": "ILSVRC2012_val_00037531_n03496892.JPEG",
+      "source_sha256": "58b76cf641598eec77ffd1afca13f21a248a512fe04a5ef35e8fcf0186b1f68a",
+      "label": 595,
+      "class_name": "harvester, reaper",
+      "sha256": "dd567b73404a9e1794596d5d1d24bde68b4a78e62543015afc51cd28f440ca4c"
+    },
+    {
+      "file": "images/image_060.png",
+      "source_path": "ILSVRC2012_val_00049473_n04179913.JPEG",
+      "source_sha256": "7a129aa0327f50914b9db2ee0d6f19b85cf8d3954e283044036226dcff59ab9f",
+      "label": 786,
+      "class_name": "sewing machine",
+      "sha256": "48efafda4467252d9c129bea6a51956a5c0affec46996e985345ab6a83edafa0"
+    },
+    {
+      "file": "images/image_061.png",
+      "source_path": "ILSVRC2012_val_00037352_n02814860.JPEG",
+      "source_sha256": "6b0c1af0396c90ddd215fb30659389562dfad5e5c9f0abcba46fe3f866a3c540",
+      "label": 437,
+      "class_name": "beacon, lighthouse, beacon light, pharos",
+      "sha256": "638e01ea7f8e6a39353063d3e59315503656600a9934367257cd0fc71a3c3bda"
+    },
+    {
+      "file": "images/image_062.png",
+      "source_path": "ILSVRC2012_val_00005380_n03995372.JPEG",
+      "source_sha256": "a77fbb1cd2836ee876a9b7f40fa7f97f7f5837bc1f4382e20da3083326980890",
+      "label": 740,
+      "class_name": "power drill",
+      "sha256": "ad8d3d40637c4e0d75629d3259fe740b6050908285d62df9577ad275c1c94ccf"
+    },
+    {
+      "file": "images/image_063.png",
+      "source_path": "ILSVRC2012_val_00011180_n03838899.JPEG",
+      "source_sha256": "91cf1a8f9e0becaa49a0f3fe22d2b52291300d751e8f6c7341025daaf20f2505",
+      "label": 683,
+      "class_name": "oboe, hautboy, hautbois",
+      "sha256": "7f02773fc3ac753344c98719bb3cd154c26a6cff795b4a5ce7e763b0e245add0"
+    },
+    {
+      "file": "images/image_064.png",
+      "source_path": "ILSVRC2012_val_00008511_n04263257.JPEG",
+      "source_sha256": "cb4a2dc3582b144151ac8938b18e4941957aa334c02713cf8afb40678e7475de",
+      "label": 809,
+      "class_name": "soup bowl",
+      "sha256": "29521f99d1c15f2f21952c3d33e84c23a5c1ecf4fea29d6550dc2646d6cfeeb3"
+    },
+    {
+      "file": "images/image_065.png",
+      "source_path": "ILSVRC2012_val_00046357_n03344393.JPEG",
+      "source_sha256": "26e1cad6ee637e9575e0afeeb61219aa415096c1c2b6ae4ae0c0fea4646ccd8b",
+      "label": 554,
+      "class_name": "fireboat",
+      "sha256": "aa7b2eb17fbaf7ba629dd70e258cf0a07cf17741c292a7ee1512a65d7f3cf655"
+    },
+    {
+      "file": "images/image_066.png",
+      "source_path": "ILSVRC2012_val_00036554_n03417042.JPEG",
+      "source_sha256": "5169d460fee14b9c1154355dfc235224f5a21fee2a05b8c2b8ca51b4324f9391",
+      "label": 569,
+      "class_name": "garbage truck, dustcart",
+      "sha256": "d64518a1c462a963a731ef45c7dc3048a253974f18bbd0a4ad3ce2fac820f9be"
+    },
+    {
+      "file": "images/image_067.png",
+      "source_path": "ILSVRC2012_val_00041262_n02840245.JPEG",
+      "source_sha256": "5ab1b99a60bfdb0caeb8250cd14fea4c57bdfc992aaef2c22068c859d9fd94b6",
+      "label": 446,
+      "class_name": "binder, ring-binder",
+      "sha256": "7cd54a2f4b2d114e9cd70e2d29ce09024c6479717d2e1d167c83c05a26234ecd"
+    },
+    {
+      "file": "images/image_068.png",
+      "source_path": "ILSVRC2012_val_00021793_n01498041.JPEG",
+      "source_sha256": "71f15764274532bd1ac43720614fa4fe8d6ec64bfdc07f62919f49ab612c44c9",
+      "label": 6,
+      "class_name": "stingray",
+      "sha256": "ac8c56062e3a8e605ce2ffd45537ef3490d5d809f7dba265c369fbabfefde245"
+    },
+    {
+      "file": "images/image_069.png",
+      "source_path": "ILSVRC2012_val_00037980_n04599235.JPEG",
+      "source_sha256": "1e34aa0c21e608df8abd6bcb6d905cadf5e049bc1ddc15e908f608dda9f9471a",
+      "label": 911,
+      "class_name": "wool, woolen, woollen",
+      "sha256": "0b2f25cd2180ee3557dfd43b284dbf8781b8327a3ee44d11a050d01cd25f98ae"
+    },
+    {
+      "file": "images/image_070.png",
+      "source_path": "ILSVRC2012_val_00002026_n03930313.JPEG",
+      "source_sha256": "3a5932d08685ff4c422dba8d24201893108c80712d7503ed3b492cabc2c68d49",
+      "label": 716,
+      "class_name": "picket fence, paling",
+      "sha256": "e907cc3e5addd21d0ea9cfaf97985632b9154e4391cc452da706f9fdaa1db2e5"
+    },
+    {
+      "file": "images/image_071.png",
+      "source_path": "ILSVRC2012_val_00005237_n02231487.JPEG",
+      "source_sha256": "c8ae86cc94f3ca601181f664b706fa95ec0e95bfd613a71c8c44d8ebe0e29c9d",
+      "label": 313,
+      "class_name": "walking stick, walkingstick, stick insect",
+      "sha256": "4bdae14e946cc6a8b7e2243dcfdba60cc50875c3ed91baf92ef456a8fc9c75d5"
+    },
+    {
+      "file": "images/image_072.png",
+      "source_path": "ILSVRC2012_val_00040839_n02488291.JPEG",
+      "source_sha256": "dc3358d5f75563605a60a79a31697e2be829abda4cfe39d620432db5f900f655",
+      "label": 374,
+      "class_name": "langur",
+      "sha256": "de8bb74782bda77ad24164865f495ed12e9ec0616b1ce4a6cd84c0b9e4cea9fd"
+    },
+    {
+      "file": "images/image_073.png",
+      "source_path": "ILSVRC2012_val_00020893_n03742115.JPEG",
+      "source_sha256": "009753e2eb1e27dbaffef7017d9d35ca84a98a88e8231efa7fa0e757d7de4e9a",
+      "label": 648,
+      "class_name": "medicine chest, medicine cabinet",
+      "sha256": "44259cec47b39034ce0170662401851260b9bed760cc025add3578b5f051b6b8"
+    },
+    {
+      "file": "images/image_074.png",
+      "source_path": "ILSVRC2012_val_00030587_n02804610.JPEG",
+      "source_sha256": "c0d29d526a283256f357d71fd18fef7e72c1d622694b8864cf9a1ae367a1b8f8",
+      "label": 432,
+      "class_name": "bassoon",
+      "sha256": "8e352b9b8fd6b3d21fab3ffe761f3c3dfd8d76a9f76d7c91985754e1694f5aa7"
+    },
+    {
+      "file": "images/image_075.png",
+      "source_path": "ILSVRC2012_val_00024451_n02783161.JPEG",
+      "source_sha256": "0b3532e2f9dce29135a23d792b17352c88569ceb2e02753fa3003e7964fdad61",
+      "label": 418,
+      "class_name": "ballpoint, ballpoint pen, ballpen, Biro",
+      "sha256": "7e79a388e44604170e7d5d6d7997c9c32ac895b4e90debd7daf081d99582cf93"
+    },
+    {
+      "file": "images/image_076.png",
+      "source_path": "ILSVRC2012_val_00009938_n01629819.JPEG",
+      "source_sha256": "8760c8e1483e513172368ec9b0768e93fc5393826ce6aebfe57ea06397a79368",
+      "label": 25,
+      "class_name": "European fire salamander, Salamandra salamandra",
+      "sha256": "d1855ccbed27c13b97c0b2ccfeb69a09c477a8726215973c3d9948162f4a96d9"
+    },
+    {
+      "file": "images/image_077.png",
+      "source_path": "ILSVRC2012_val_00029994_n02892767.JPEG",
+      "source_sha256": "0aefa926b06c9790ab76bdf40729d4995c379c2ba16015976917cc96b1340ffb",
+      "label": 459,
+      "class_name": "brassiere, bra, bandeau",
+      "sha256": "dd79e706723049394b642486055650f6e1d75ff63475fcf2251a9731acc48ac7"
+    },
+    {
+      "file": "images/image_078.png",
+      "source_path": "ILSVRC2012_val_00025751_n03045698.JPEG",
+      "source_sha256": "8d5b6c4fc9f94f459a516048d42f3a10d1c53ee43e0513b22a785868f43b55e5",
+      "label": 501,
+      "class_name": "cloak",
+      "sha256": "e7fa0cb3aa9de3f965a3f13a30b59016cd9f9bfce7c110264442af93ac75208a"
+    },
+    {
+      "file": "images/image_079.png",
+      "source_path": "ILSVRC2012_val_00000805_n04591713.JPEG",
+      "source_sha256": "40fe46e9aaabc37a467445a0100b31733df03d2a155163083f4203fe0bf65277",
+      "label": 907,
+      "class_name": "wine bottle",
+      "sha256": "3f84e995149193e3323d53125da697c6ddf86073ef1a5e468eb31ea70d20bbea"
+    },
+    {
+      "file": "images/image_080.png",
+      "source_path": "ILSVRC2012_val_00020557_n03733805.JPEG",
+      "source_sha256": "302826cef2379ae9f4782347ecfd4f4a30c35d2a4fdd10a0edf4ed5d529c390a",
+      "label": 647,
+      "class_name": "measuring cup",
+      "sha256": "84b86c3fa6ad1601ee85c9a322575d5217bddbd1b3a8783b271d02f71d6c9dee"
+    },
+    {
+      "file": "images/image_081.png",
+      "source_path": "ILSVRC2012_val_00016787_n02280649.JPEG",
+      "source_sha256": "b4707244dad2efe330b0e255c28cb7abea880e1c705417ec4d557eff103d62ec",
+      "label": 324,
+      "class_name": "cabbage butterfly",
+      "sha256": "b35344932f99c114d8e6ce6bfefe7bbaef1f5c1e0ec3cab88626ccefb9a65069"
+    },
+    {
+      "file": "images/image_082.png",
+      "source_path": "ILSVRC2012_val_00046582_n02977058.JPEG",
+      "source_sha256": "0e614c49470f376c25e8dbf3f0957c6e7c9d1191c0aa80966b263390da6877f2",
+      "label": 480,
+      "class_name": "cash machine, cash dispenser, automated teller machine, automatic teller machine, automated teller, automatic teller, ATM",
+      "sha256": "7781c174d37190a02a420fa993615d79f1f11ef2c5df27e1de6affcdc951cc2a"
+    },
+    {
+      "file": "images/image_083.png",
+      "source_path": "ILSVRC2012_val_00009946_n01632777.JPEG",
+      "source_sha256": "77b67908dc725b6399ad05bee6c4b712b4d2a055de6b0cc0940575e93f46bee9",
+      "label": 29,
+      "class_name": "axolotl, mud puppy, Ambystoma mexicanum",
+      "sha256": "562f3be6b192736a0afc39807ef1c72434aed2c40825b67fc7c85276fa5ea779"
+    },
+    {
+      "file": "images/image_084.png",
+      "source_path": "ILSVRC2012_val_00026520_n04149813.JPEG",
+      "source_sha256": "9798399bd1b94f9a8fc5276eace46c548c56baa2ee881c26f6f6e66ae53b1e05",
+      "label": 781,
+      "class_name": "scoreboard",
+      "sha256": "6846f47ae1d25459c0cdef27934849628e686317a8ac16041ae83653cd07285c"
+    },
+    {
+      "file": "images/image_085.png",
+      "source_path": "ILSVRC2012_val_00005606_n03769881.JPEG",
+      "source_sha256": "5ef7b76f7c04732b431cab37750339d14f1df8c6c69a52fb4b67b4eda1f728eb",
+      "label": 654,
+      "class_name": "minibus",
+      "sha256": "e5516f27b19ecf7e308ab20f41e5cb4077b5ff01468055286516eb8a9dc3225e"
+    },
+    {
+      "file": "images/image_086.png",
+      "source_path": "ILSVRC2012_val_00002650_n03814639.JPEG",
+      "source_sha256": "abac7df58079695dd6188513d8900c14796ef5fb0dc43c94aa9cd78c3e990b66",
+      "label": 678,
+      "class_name": "neck brace",
+      "sha256": "44a0d46e62fbfb74ac3fbe9a94a4742bd1ab935f2f5e3e5f43990e1d6ee1a9c5"
+    },
+    {
+      "file": "images/image_087.png",
+      "source_path": "ILSVRC2012_val_00019783_n12620546.JPEG",
+      "source_sha256": "ff9847c92278dd3b7ca92c2421c6ddb8275bb2e0af2ab72bfab36a955ad24820",
+      "label": 989,
+      "class_name": "hip, rose hip, rosehip",
+      "sha256": "365922d1f941595857facc7ca6ac4b5649244a1601e9a1f679d349c5dacf799b"
+    },
+    {
+      "file": "images/image_088.png",
+      "source_path": "ILSVRC2012_val_00013033_n02107142.JPEG",
+      "source_sha256": "4ab46952b6a2dbd0eff38b923d9694b95f1262a712ce21191106a784260b7793",
+      "label": 236,
+      "class_name": "Doberman, Doberman pinscher",
+      "sha256": "cb6ada049005e955e1e832738ce1d4d3468ac59ab8361f1760bcf03b1045b6a4"
+    },
+    {
+      "file": "images/image_089.png",
+      "source_path": "ILSVRC2012_val_00040561_n03249569.JPEG",
+      "source_sha256": "2ebc29d05b23cba66663c63c333ff94902e3961121f7a799fa680d4ed4b4f53a",
+      "label": 541,
+      "class_name": "drum, membranophone, tympan",
+      "sha256": "b0211a4a7aa031aa3a030b52fb54cd9bc2a5b36c7226bb0fc3281d8e7fa689fa"
+    },
+    {
+      "file": "images/image_090.png",
+      "source_path": "ILSVRC2012_val_00014717_n03492542.JPEG",
+      "source_sha256": "4c0f9743283c13190f2ae62150a701abb6e64b299d08ec286044bd60c7c5c3b9",
+      "label": 592,
+      "class_name": "hard disc, hard disk, fixed disk",
+      "sha256": "053681848cad40626ae02ef3701d2e4a64a6893dccd4305ac15bcea9697b48bc"
+    },
+    {
+      "file": "images/image_091.png",
+      "source_path": "ILSVRC2012_val_00026483_n03372029.JPEG",
+      "source_sha256": "95165785c91f74b7346e05e37d677b9a6d455874693b14bac2d003e4303a2e30",
+      "label": 558,
+      "class_name": "flute, transverse flute",
+      "sha256": "15dc28f0ffb95416138b07b1c3ee5d7d028b73c974e0be9c03e673fb6eeb3cfa"
+    },
+    {
+      "file": "images/image_092.png",
+      "source_path": "ILSVRC2012_val_00022721_n02894605.JPEG",
+      "source_sha256": "3c984532b110919eceab61d7fd09a1754d9713848140caf0c0f53a3d31bc0df6",
+      "label": 460,
+      "class_name": "breakwater, groin, groyne, mole, bulwark, seawall, jetty",
+      "sha256": "218c7c13bf4c786b5c84f36d1cae0785d0d0e8bf5882fe2fb1822f07e5326933"
+    },
+    {
+      "file": "images/image_093.png",
+      "source_path": "ILSVRC2012_val_00038932_n02786058.JPEG",
+      "source_sha256": "aa174db8dbf6f047db4adfc1a2c7dd2d3fec55b1e55113432aa35289d8221814",
+      "label": 419,
+      "class_name": "Band Aid",
+      "sha256": "348c2f954fa99636fef768909c4743c9163246d50b8eb329b7d007388cad4ffc"
+    },
+    {
+      "file": "images/image_094.png",
+      "source_path": "ILSVRC2012_val_00047110_n02102973.JPEG",
+      "source_sha256": "c89a2552222b383d550497e4f6efcb0d199f8d4bbd48688444cc0cc7f83230f5",
+      "label": 221,
+      "class_name": "Irish water spaniel",
+      "sha256": "e2896e9aa55feb26b35a4eb9515e61b6a6a8c9aef59a48d50bcfaee932078bd3"
+    },
+    {
+      "file": "images/image_095.png",
+      "source_path": "ILSVRC2012_val_00035899_n04069434.JPEG",
+      "source_sha256": "14ddd9609ada51fd74aa01c86d1e3d9cdb624716b8bcb8c36b8f129fca5345ca",
+      "label": 759,
+      "class_name": "reflex camera",
+      "sha256": "11f2f72d72ebbec4ba01bb51c9317eecea8a109c3e3f5771854f7eb6307060fa"
+    },
+    {
+      "file": "images/image_096.png",
+      "source_path": "ILSVRC2012_val_00024201_n03769881.JPEG",
+      "source_sha256": "39a84293ab0daf2d15a41ef0912909c37caf41c015a6dea19388fc320913eb16",
+      "label": 654,
+      "class_name": "minibus",
+      "sha256": "c3a32f905af20a8915a8b77d08dbc061392de3030a351259b700588d9206e4fa"
+    },
+    {
+      "file": "images/image_097.png",
+      "source_path": "ILSVRC2012_val_00002224_n03590841.JPEG",
+      "source_sha256": "41c6cc49617ef62b71623ca966de5a64c9602d329be061edebdddfa03a6c5df3",
+      "label": 607,
+      "class_name": "jack-o'-lantern",
+      "sha256": "ebe2ebd111f24b35688bbe1491ceb147b86921d2a08f20fca5f974af64f50f0b"
+    },
+    {
+      "file": "images/image_098.png",
+      "source_path": "ILSVRC2012_val_00037155_n02137549.JPEG",
+      "source_sha256": "7af1ee6dabaa8b718c6b632d906eb3cd5e995e8a6a063bf3e2efdbcc6536c64b",
+      "label": 298,
+      "class_name": "mongoose",
+      "sha256": "932a15ce6fa1ff6621c3a1168cd1f24d54f9fa6061a10bac2d2ad4d7f7ac5f39"
+    },
+    {
+      "file": "images/image_099.png",
+      "source_path": "ILSVRC2012_val_00028093_n04311004.JPEG",
+      "source_sha256": "7deba677bc9f8594f8044651234e2dbb6ca110a5b4381e39e5ed453eceb0406e",
+      "label": 821,
+      "class_name": "steel arch bridge",
+      "sha256": "95316538a43d06f04ca31f32a296b9e7b4b0647b6729b03a3f41d5946399466c"
+    }
+  ],
+  "pairs": [
+    {
+      "pair_id": 0,
+      "original": "images/image_042.png",
+      "target": "images/image_041.png"
+    },
+    {
+      "pair_id": 1,
+      "original": "images/image_091.png",
+      "target": "images/image_009.png"
+    },
+    {
+      "pair_id": 2,
+      "original": "images/image_065.png",
+      "target": "images/image_050.png"
+    },
+    {
+      "pair_id": 3,
+      "original": "images/image_001.png",
+      "target": "images/image_070.png"
+    },
+    {
+      "pair_id": 4,
+      "original": "images/image_015.png",
+      "target": "images/image_078.png"
+    },
+    {
+      "pair_id": 5,
+      "original": "images/image_073.png",
+      "target": "images/image_010.png"
+    },
+    {
+      "pair_id": 6,
+      "original": "images/image_055.png",
+      "target": "images/image_056.png"
+    },
+    {
+      "pair_id": 7,
+      "original": "images/image_072.png",
+      "target": "images/image_045.png"
+    },
+    {
+      "pair_id": 8,
+      "original": "images/image_048.png",
+      "target": "images/image_092.png"
+    },
+    {
+      "pair_id": 9,
+      "original": "images/image_076.png",
+      "target": "images/image_037.png"
+    },
+    {
+      "pair_id": 10,
+      "original": "images/image_030.png",
+      "target": "images/image_021.png"
+    },
+    {
+      "pair_id": 11,
+      "original": "images/image_032.png",
+      "target": "images/image_096.png"
+    },
+    {
+      "pair_id": 12,
+      "original": "images/image_080.png",
+      "target": "images/image_049.png"
+    },
+    {
+      "pair_id": 13,
+      "original": "images/image_083.png",
+      "target": "images/image_026.png"
+    },
+    {
+      "pair_id": 14,
+      "original": "images/image_087.png",
+      "target": "images/image_033.png"
+    },
+    {
+      "pair_id": 15,
+      "original": "images/image_008.png",
+      "target": "images/image_047.png"
+    },
+    {
+      "pair_id": 16,
+      "original": "images/image_059.png",
+      "target": "images/image_063.png"
+    },
+    {
+      "pair_id": 17,
+      "original": "images/image_074.png",
+      "target": "images/image_044.png"
+    },
+    {
+      "pair_id": 18,
+      "original": "images/image_098.png",
+      "target": "images/image_052.png"
+    },
+    {
+      "pair_id": 19,
+      "original": "images/image_085.png",
+      "target": "images/image_012.png"
+    },
+    {
+      "pair_id": 20,
+      "original": "images/image_036.png",
+      "target": "images/image_023.png"
+    },
+    {
+      "pair_id": 21,
+      "original": "images/image_039.png",
+      "target": "images/image_040.png"
+    },
+    {
+      "pair_id": 22,
+      "original": "images/image_018.png",
+      "target": "images/image_066.png"
+    },
+    {
+      "pair_id": 23,
+      "original": "images/image_061.png",
+      "target": "images/image_060.png"
+    },
+    {
+      "pair_id": 24,
+      "original": "images/image_007.png",
+      "target": "images/image_034.png"
+    },
+    {
+      "pair_id": 25,
+      "original": "images/image_099.png",
+      "target": "images/image_046.png"
+    },
+    {
+      "pair_id": 26,
+      "original": "images/image_002.png",
+      "target": "images/image_051.png"
+    },
+    {
+      "pair_id": 27,
+      "original": "images/image_016.png",
+      "target": "images/image_038.png"
+    },
+    {
+      "pair_id": 28,
+      "original": "images/image_058.png",
+      "target": "images/image_068.png"
+    },
+    {
+      "pair_id": 29,
+      "original": "images/image_022.png",
+      "target": "images/image_062.png"
+    },
+    {
+      "pair_id": 30,
+      "original": "images/image_024.png",
+      "target": "images/image_005.png"
+    },
+    {
+      "pair_id": 31,
+      "original": "images/image_006.png",
+      "target": "images/image_067.png"
+    },
+    {
+      "pair_id": 32,
+      "original": "images/image_082.png",
+      "target": "images/image_019.png"
+    },
+    {
+      "pair_id": 33,
+      "original": "images/image_079.png",
+      "target": "images/image_043.png"
+    },
+    {
+      "pair_id": 34,
+      "original": "images/image_090.png",
+      "target": "images/image_020.png"
+    },
+    {
+      "pair_id": 35,
+      "original": "images/image_000.png",
+      "target": "images/image_095.png"
+    },
+    {
+      "pair_id": 36,
+      "original": "images/image_057.png",
+      "target": "images/image_093.png"
+    },
+    {
+      "pair_id": 37,
+      "original": "images/image_053.png",
+      "target": "images/image_089.png"
+    },
+    {
+      "pair_id": 38,
+      "original": "images/image_025.png",
+      "target": "images/image_071.png"
+    },
+    {
+      "pair_id": 39,
+      "original": "images/image_084.png",
+      "target": "images/image_077.png"
+    },
+    {
+      "pair_id": 40,
+      "original": "images/image_064.png",
+      "target": "images/image_029.png"
+    },
+    {
+      "pair_id": 41,
+      "original": "images/image_027.png",
+      "target": "images/image_088.png"
+    },
+    {
+      "pair_id": 42,
+      "original": "images/image_097.png",
+      "target": "images/image_004.png"
+    },
+    {
+      "pair_id": 43,
+      "original": "images/image_054.png",
+      "target": "images/image_075.png"
+    },
+    {
+      "pair_id": 44,
+      "original": "images/image_011.png",
+      "target": "images/image_069.png"
+    },
+    {
+      "pair_id": 45,
+      "original": "images/image_086.png",
+      "target": "images/image_013.png"
+    },
+    {
+      "pair_id": 46,
+      "original": "images/image_017.png",
+      "target": "images/image_028.png"
+    },
+    {
+      "pair_id": 47,
+      "original": "images/image_031.png",
+      "target": "images/image_035.png"
+    },
+    {
+      "pair_id": 48,
+      "original": "images/image_094.png",
+      "target": "images/image_003.png"
+    },
+    {
+      "pair_id": 49,
+      "original": "images/image_014.png",
+      "target": "images/image_081.png"
+    }
+  ]
+}
